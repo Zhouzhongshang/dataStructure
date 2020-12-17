@@ -34,11 +34,12 @@ class DoubleLinkedList{
      * @Author: zzs
      * @Date: 2020/3/2
      * @Implementation:
+     *    采用临时节点遍历
      *   1，找到位置cur
      *   2,cur.pre.next=cur.next   ->   [指针指向]
      *   3,cur.next.pre=cur.pre    <-
      *
-     *   4，假入cur为最后一个node, 2没有问题
+     *   4，假入cur为最后一个node, 2没有问题 3不用执行
      *       直接结束
      *
      */
